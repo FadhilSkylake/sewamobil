@@ -1,13 +1,9 @@
 ## Tentang
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Terimakasih sudah meninjau cv saya semoga dengan adanya test ini ibu/bapak bisa menentukan pilihan kandidat baru untuk perusahaan ibu/bapak.
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
--   [Powerful dependency injection container](https://laravel.com/docs/container).
--   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
--   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
--   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
--   [Robust background job processing](https://laravel.com/docs/queues).
--   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   pertama silahkan import db yang bernama sewq.sql yang sudah saya sediakan di folder.
+-   lalu silahkan jalankan laravel seperti biasa dan langsung buka localhost:8000/login.
+-   semua user saya beri password Admin.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Demikian dari saya kurang dan lebihnya, masih banyak fitur, layout, icon yang belum saya kerjakan dan rapihkan. Namun karena waktu sehingga saya hanya mampu mengerjakan apa yang saya mampu untuk menepati waktu.
