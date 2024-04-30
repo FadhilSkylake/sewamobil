@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegisController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,5 +33,11 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // Route untuk menampilkan form Regis
 Route::get('/regis', [RegisController::class, 'index']);
 
-// Route untuk proses login
+// Route untuk proses Registrasi
 Route::post('/store', [RegisController::class, 'store'])->name('store');
+
+// Route untuk menampilkan Dashboard
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+// Route untuk menampilkan Kelola User
+Route::get('/user', [UserController::class, 'index']);

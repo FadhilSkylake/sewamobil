@@ -14,9 +14,15 @@ class User extends Authenticatable
 
     protected $table = 'user';
     protected $fillable = [
-        'name',
+        'username',
         'password',
+        'nama',
+        'alamat',
+        'no_telp',
+        'no_sim',
+        'role',
     ];
+
     protected $casts = [
         'password' => 'hashed',
     ];
@@ -27,6 +33,5 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password',
-        'remember_token',
     ];
 }
